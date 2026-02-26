@@ -1,4 +1,4 @@
-# KNN Classifier — Gaussian Mixture Distributions
+# KNN Classifier
 
 ## Overview
 
@@ -41,10 +41,10 @@ The asymmetric sigmas create a unique and realistic decision boundary where the 
 
 | Plot | Description |
 |------|-------------|
-| **Slide 27** | Optimal (Bayes-proxy) decision boundary |
-| **Slide 30** | Train & Test error rate vs 1/K — shows the U-shape and best K |
-| **Slide 28** | K=1 overfitting — jagged boundary, high variance |
-| **Slide 29** | K=100 underfitting — oversimplified boundary, high bias |
+| **1** | Optimal (Bayes-proxy) decision boundary |
+| **2** | Train & Test error rate vs 1/K — shows the U-shape and best K |
+| **3** | K=1 overfitting — jagged boundary, high variance |
+| **4** | K=100 underfitting — oversimplified boundary, high bias |
 
 ---
 
@@ -54,10 +54,3 @@ The asymmetric sigmas create a unique and realistic decision boundary where the 
 - The **bias-variance trade-off** is clearly visible in the error vs 1/K plot: as K increases, variance decreases but bias increases
 - The optimal K minimises test error, balancing both
 - A model with 100% training accuracy (K=1) is not necessarily the best — it overfits the training noise
-
----
-
-## Files
-
-- `knn_gaussian.py` — Main Python script with data generation, KNN training, and all plots
-- `README.md` — This file
