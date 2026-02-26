@@ -1,4 +1,4 @@
-# KNN Classifier
+# KNN Experiment
 
 ## Overview
 
