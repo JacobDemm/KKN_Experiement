@@ -1,4 +1,4 @@
-# KNN Experiment
+# K-Nearest Neighbor Experiment
 
 ## Overview
 
